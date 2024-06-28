@@ -8,7 +8,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: rgb(171, 191, 171);
+  --first-color:  #bccad6;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -507,6 +507,10 @@ img {
   }
   .about__img img {
     width: 300px;
+  }
+
+  .about__text {
+    line-height: 2;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
